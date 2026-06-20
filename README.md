@@ -1,45 +1,60 @@
-# Signature verification project
+<div align="center">
+  <h1>Signature Verification System</h1>
+  <p>An AI-Powered Handwritten & Digital Signature Verification application built with React, Vite, and Tailwind CSS.</p>
 
-## Project info
+  [![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-success?style=for-the-badge&logo=render)](https://signature-verification-system-l5bu.onrender.com)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+</div>
 
-This repository contains a signature verification demo built with React, Vite, Tailwind, and Supabase.
+---
 
-## How can I edit this code?
+## 🚀 Live Demo
 
-Use your preferred IDE to work locally. Clone the repository, install dependencies, and start the development server.
+Experience the live application here: **[Signature Verification System on Render](https://signature-verification-system-l5bu.onrender.com)**
 
-The only requirement is having Node.js and npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📖 Overview
 
-Follow these steps:
+The **Signature Verification System** provides a highly secure and intuitive interface to verify handwritten signatures using artificial intelligence. Once a signature is verified as genuine, it allows the user to securely generate a cryptographic digital signature (RSA-SHA256) for a target document, ensuring non-repudiation and document integrity.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ✨ Key Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **AI Handwritten Signature Analysis**: Evaluates strokes, pressure patterns, and line variations to detect forgeries.
+- **Cryptographic Digital Signatures**: Generates 2048-bit RSA keys and SHA-256 hashes to digitally sign documents.
+- **Controlled Workflow**: Ensures a digital signature can only be generated after the handwritten signature successfully passes the AI verification.
+- **Modern User Interface**: A clean, responsive, and accessible interface built with shadcn-ui and Tailwind CSS.
 
-# Step 3: Install the necessary dependencies.
-npm install
+## 🛠️ Technologies Used
 
-# Step 4: Start the development server.
-npm run dev
-```
+- **Frontend**: React 18, Vite, TypeScript
+- **Styling**: Tailwind CSS, shadcn-ui, Radix UI
+- **Cryptography**: Web Crypto API (RSA-PSS, SHA-256)
+- **Backend/AI (Optional)**: Supabase Edge Functions (with a robust local fallback for demonstrations)
 
-## What technologies are used for this project?
+## 💻 Getting Started
 
-This project is built with:
+### Prerequisites
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Ensure you have Node.js and npm installed. You can download them [here](https://nodejs.org/).
 
-## Deployment
+### Installation
 
-Deploy this project using your preferred hosting platform or framework.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/mohdadnanmohi/-Signature-Verification-System.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd -Signature-Verification-System
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-## Custom domain support
+## 📄 License
 
-If your deployment platform supports custom domains, configure the domain in that platform's settings.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
